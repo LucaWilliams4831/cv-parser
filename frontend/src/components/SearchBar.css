@@ -1,0 +1,10 @@
+.search-bar {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.search-bar-input:focus {
+    outline: none;
+    box-shadow: none;
+}

@@ -1,0 +1,8 @@
+.resume-btn {
+    background-color: #483D8B;
+    color: white;
+}
+
+.resume-btn:hover {
+    color: white !important;
+}

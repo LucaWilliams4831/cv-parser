@@ -1,0 +1,31 @@
+/* buttons */
+
+.button {
+    border: none;
+    color: white;
+    padding: 5px 5px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1%;
+    cursor: pointer;
+}
+
+  /* rounded buttons */
+
+.btn.rounded {
+    border-radius: 20px; 
+    color: black;}
+
+.btn.rounded.outline-4 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: black;
+    border: 2px solid #483D8B;/* Hot Pink */}
+
+.btn.rounded.outline-4:hover {
+    color: white;
+    background-color: #483D8B;
+    border-color: #483D8B; }
+

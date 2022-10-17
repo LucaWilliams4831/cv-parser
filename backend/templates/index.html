@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../static/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ResumeParser</title>
+    <script src="https://kit.fontawesome.com/504826ad66.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+          <h1>Upload Resume</h1>
+          <div class="upload-container">
+            <div class="border-container">
+              <div class="icons fa-4x">
+                <i class="fas fa-file-image" data-fa-transform="shrink-3 down-2 left-6 rotate--45"></i>
+                <i class="fas fa-file-alt" data-fa-transform="shrink-2 up-4"></i>
+                <i class="fas fa-file-pdf" data-fa-transform="shrink-3 down-2 right-6 rotate-45"></i>
+              </div>
+              <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="fileUploaded" id="file-upload" accept=".doc,.docx,.pdf">
+                <input type="submit" value="Upload Resume" name="submit">
+                </form>
+              
+              <p>Drag and drop files here, or 
+                <a href="" id="file-browser">browse</a> your computer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

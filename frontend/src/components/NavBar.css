@@ -1,0 +1,11 @@
+.navbar-top {
+    width: 100%;
+    background-color: #483D8B !important;
+}
+
+.navbrand {
+    padding-top: 12px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 500;
+    color: white;
+}
